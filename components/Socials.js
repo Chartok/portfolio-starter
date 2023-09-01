@@ -1,6 +1,3 @@
-// links
-import Link from 'next/link';
-
 // icons
 import {
   RiGithubFill,
@@ -13,18 +10,15 @@ import {
 const Socials = () => {
   return (
     <div className='flex items-center gap-x-5 text-lg'>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
+      <a href={'https://github.com/Chartok'} className='hover:text-accent transition-all duration-300' target='_blank' rel='noopener noreferrer'>
         <RiGithubFill />
-      </Link>
-
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
+      </a>
+      <a href={'https://linkedin.com/in/mohammed-bhimjee/'} className='hover:text-accent transition-all duration-300' target='_blank' rel='noopener noreferrer'>
         <RiLinkedinBoxFill />
-      </Link>
-
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
+      </a>
+      <a href={'https://dev.to/yaysa'} className='hover:text-accent transition-all duration-300' target='_blank' rel='noopener noreferrer'>
         <SiDevdotto />
-      </Link>
-
+      </a>
     </div>
   );
 };
