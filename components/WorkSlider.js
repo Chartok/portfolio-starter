@@ -90,7 +90,7 @@ const WorkSlider = () => {
                     className='relative rounded-lg overflow-hidden mb-10 flex items-center justify-center group' 
                     key={index}
                   >
-                    <div className='flex items-center justify-center relative overflow-hidden '>
+                    <div className='flex items-center justify-center relative overflow-hidden'>
                       {/* image */}
                       <Image src={image.path} width={500} height={300} alt={image.title} />
                       {/* overlay gradient */}
