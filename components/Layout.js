@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
       <Nav />
       <Header />
       {children}
-      <div>
+      <div className=' flex flex-row justify-center text-center items-center py-2'>
       <Footer />
       </div>
     </div>
