@@ -14,11 +14,7 @@
 
 # production
 /build
-/components
-/pages
-/public
-Procfile
-next.config.js
+
 
 
 # misc
