@@ -12,6 +12,7 @@ const sora = Sora({
 import Nav from '../components/Nav';
 import Header from '../components/Header';
 import TopLeftImg from '../components/TopLeftImg';
+import Footer from '../components/Footer';
 
 const Layout = ({ children }) => {
   return (
@@ -20,6 +21,9 @@ const Layout = ({ children }) => {
       <Nav />
       <Header />
       {children}
+      <div>
+      <Footer />
+      </div>
     </div>
   );
 };
