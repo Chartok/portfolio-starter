@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Footer = () => {
     return (
-        <footer className='absolute z-30 bottom-0 w-full flex lg:items-center text-white px-8 xl:px-0 xl:h-[90px] pb-20'>
+        <footer className='absolute z-30 bottom-0 w-full flex lg:items-center text-white px-8 xl:px-0 xl:h-[90px] pb-5'>
             <div className='container mx-auto text-center '>
                 
                 <div className='text-xs flex lg:flex-row justify-center text-center'> <p>Credits:</p>.
