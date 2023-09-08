@@ -90,19 +90,18 @@ const WorkSlider = () => {
                     className='relative rounded-lg overflow-hidden flex items-center justify-center group'
                     key={index}
                   >
-                    <div className='flex items-center justify-center relative overflow-hidden group w-[500px] h-[500px]'>
+                    <div className='flex justify-center relative overflow-hidden group w-[500px] h-[500px]'>
                       {/* image */}
-                      <Image src={image.path} alt={image.title} sizes='500px' style={{ objectFit: 'contain' }} fill />
+                      <Image src={image.path} alt={image.title} width={500} height={500} style={{ width: 'auto', height: 'auto', objectFit: 'contain' }} />
                       {/* overlay gradient */}
-                      <div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#0ef] to-[#07f] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
-                      {/* title */}
-                      <div className='absolute bottom-0 translate-y-full group-hover:-translate-y-16 group-hover:xl:-translate-y-20 transition-all duration-300'>
-                        <div className='flex items-center gap-x-2 text-[13px] tracking-[0.2em]'>
+                      <div className='absolute contain inset-0 bg-gradient-to-l from-transparent via-[#0ef] to-[#07f] opacity-0 group-hover:opacity-40 transition-all duration-700'></div>
+                      <div className='absolute bottom-0 translate-y-full  group-hover:-translate-y-20- group-hover:xl:-translate-y-40 transition-all duration-300'>
+                      {/* text in title container*/}
+                        <div className='flex gap-x-2 text-[16px] tracking-[0.4rem]'>
                           <div>
                             <a href={image.URL} target='_blank' rel='noopener noreferrer'>
-                              {/* title */}
-                              <div className='delay-100'>PROJECT: </div>
-                              <div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150'>{image.title}</div>
+                              {/* title event*/}
+                              <div className='translate-y-[500%] group-hover:-translate-y-20 transition-all duration-200 delay-150'>PROJECT:{image.title}</div>
                             </a>
                           </div>
                           {/* icon */}
