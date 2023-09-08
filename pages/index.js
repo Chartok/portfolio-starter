@@ -18,7 +18,7 @@ const Home = () => {
     <div className='bg-primary/60 h-full'>
       {/* Text */}
       <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
-        <div className='text-center flex flex-col items-center justify-center xl:pt-40 xl:text-left h-full container mx-auto'>
+        <div className='text-center flex flex-col  justify-center xl:pt-40 xl:text-left h-full container mx-auto'>
           {/* Title */}
           <motion.h1
             variants={fadeIn('down', 0.2)}
@@ -35,12 +35,12 @@ const Home = () => {
             initial='hidden'
             animate='show'
             exit='exit'
-            className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
+            className='max-w-md z-20 xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
             Blending expertise in common tech-stacks with a keen eye for responsiveness and design, I can build apps and websites that resonate.
           </motion.p>
           {/* ProjectsBtn */}
-          <div className='flex justify-center xl:hidden relative '>
+          <div className='flex xs:z-40 justify-center xl:hidden relative '>
             <ProjectsBtn />
           </div>
           <motion.div
