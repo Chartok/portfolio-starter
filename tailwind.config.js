@@ -11,16 +11,15 @@ module.exports = {
   theme: {
     container: {
       padding: {
-        DEFAULT: '15px',
+        DEFAULT: '12px',
       },
     },
     screens: {
-      xs: '480px',
-      sm: '640px',
+      xs: '360px',
+      sm: '480px',
       md: '768px',
       lg: '1024px',
       xl: '1280px',
-      xxl: '1536px',
     },
     extend: {
       colors: {
@@ -46,7 +45,7 @@ module.exports = {
   },
   container: {
     padding: {
-      DEFAULT: '15px',
+      DEFAULT: '12px',
     },
   },
   plugins: [require('tailwind-scrollbar')],
