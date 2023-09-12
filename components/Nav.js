@@ -33,7 +33,7 @@ const Nav = () => {
     <nav className='flex flex-col items-center xl:justify-center absolute gap-y-4 h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen'>
       {/* inner */}
       <div 
-        className=' w-full xl:flex-col items-center flex xs:justify-evenly justify-start xl:justify-center gap-y-10 px-4 md:px-30 xl:px-0 h-[80px] bg-accent/10 xl:h-max py-8 backdrop-blur-sm md:backdrop-blur-none text-3xl xl:text-xl xl:rounded-full'>
+        className=' w-full xl:flex-col items-center flex xs:justify-evenly justify-start xl:justify-center gap-y-10 px-4 md:px-30 xl:px-0 h-[80px] bg-accent/10 xl:h-max py-8 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full'>
 
         {navData.map((link, index) => {
           return (
