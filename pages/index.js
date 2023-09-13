@@ -40,7 +40,7 @@ const Home = () => {
             Blending expertise in common tech-stacks with a keen eye for responsiveness and design, I can build apps and websites that resonate.
           </motion.p>
           {/* ProjectsBtn */}
-          <div className='flex justify-center xl:hidden relative'>
+          <div className='flex justify-center xl:hidden relative scale-75 pb-5'>
             <ProjectsBtn />
           </div>
           <motion.div
