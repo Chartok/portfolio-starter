@@ -4,11 +4,11 @@ import Image from 'next/image';
 
 const Footer = () => {
     return (
-        <footer className='fixed bottom-0 z-30 w-full flex flex-row text-white px-8 xl:absolute xl:px-0 xl:h-[90px]'>
-            <div className=' mx-auto text-center '>
+        <footer className='fixed inset-x-0 bottom-0 text-xs z-30 w-full text-white px-8 xl:absolute xl:px-0 xl:h-[90px]'>
+            <div className='mx-auto text-center '>
                 
                 
-                <div className='relative justify-center gap-2 flex flex-row flex-wrap duration-300 left-0'>
+                <div className='flex flex-row items-center justify-center bottom-0 gap-2 duration-300 left-0'>
                     <p className='flex items-center justify-start'>| <span className='text-accent'> Credits </span> : </p>
                     <a className='hover:text-accent transition-all duration-300 ' href='https://www.youtube.com/@cristianmihai01' target='_blank' rel='noopener noreferrer'>
                         <p className='flex-row hover:text-accent transition-all flex text-center duration-300'>Cristianmiahi01  </p> </a>
