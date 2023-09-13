@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
       <Nav />
       <Header />
       {children}
-      <div className=' flex flex-row justify-center text-center items-center py-2'>
+      <div className='relative flex flex-nowrap flex-row items-center justify-center text-center' >
       <Footer />
       </div>
     </div>
