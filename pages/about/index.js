@@ -50,7 +50,7 @@ const aboutData = [
 const About = () => {
   const [index, setIndex] = useState(0);
   return (
-    <div className='h-full bg-primary/30 py-32 text-center xl:text-left'>
+    <div className='flex relative h-full w-full bg-primary/30 py-20 text-center xl:text-left'>
       <BlkHole />
       {/* avatar */}
       {/* <motion.div
@@ -111,9 +111,8 @@ const About = () => {
                 >
                   {/* title */}
                   <div className='font-light mb-2 md:mb-0'>{item.title}</div>
-                  <div className='hidden md:flex'>-</div>
                   <div>{item.stage}</div>
-                  <div className='flex gap-x-4'>
+                  <div className='flex gap-x-4 mt-2'>
                     {/* icons */}
                     {item.icons?.map((icon) => {
                       return (
