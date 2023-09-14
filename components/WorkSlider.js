@@ -92,12 +92,12 @@ const WorkSlider = () => {
                   >
                     <div className='flex justify-center relative overflow-hidden group w-[500px] h-[500px]'>
                       {/* image */}
-                      <Image src={image.path} alt={image.title} width={500} height={500} style={{ width: 'auto', height: 'auto', objectFit: 'contain' }} />
+                      <Image src={image.path} alt={image.title} width={500} height={500} style={{ width: 'auto', height: 'auto', objectFit: 'contain' }} className='absolute items-center justify-center' />
                       {/* overlay gradient */}
                       <div className='absolute contain inset-0 bg-gradient-to-b from-transparent via-[#012346] to-[#939393] opacity-0 group-hover:opacity-60 transition-all duration-700'></div>
                       <div className='absolute bottom-0 translate-y-full  group-hover:-translate-y-40 group-hover:xl:-translate-y-40 transition-all duration-300'>
                       {/* text in title container*/}
-                        <div className='flex gap-x-2 text-[14px] tracking-[0.2rem]'>
+                        <div className='flex flex-col gap-x-2 text-[14px] tracking-[0.2rem]'>
                           <div>
                             <a href={image.URL} target='_blank' rel='noopener noreferrer'>
                               {/* title event*/}
@@ -105,7 +105,7 @@ const WorkSlider = () => {
                             </a>
                           </div>
                           {/* icon */}
-                          <div className='text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200'>
+                          <div className='text-[40px] translate-y-[500%] group-hover:-translate-y-20 transition-all duration-300 delay-200'>
                             <BsArrowRight />
                           </div>
                         </div>

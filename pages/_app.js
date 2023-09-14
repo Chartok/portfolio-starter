@@ -1,4 +1,5 @@
 import '../styles/globals.css';
+import '../dist/output.css';
 
 // components
 import Layout from '../components/Layout';
