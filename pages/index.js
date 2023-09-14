@@ -17,15 +17,15 @@ const Home = () => {
   return (
     <div className='bg-primary/60 h-[35em]'>
       {/* Text */}
-      <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
-        <div className='text-center flex flex-col xl:flex-nowrap justify-center xl:pt-40 xl:text-left h-full container mx-auto'>
+      <div className='w-full flex h-full xl:absolute bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
+        <div className='flex xl:flex-col xl:bottom-40 xl:items-baseline items-center xl:flex-nowrap xl:justify-center gap-2 xl:pt-40 text-left h-full container mx-auto'>
           {/* Title */}
           <motion.h1
             variants={fadeIn('down', 0.2)}
             initial='hidden'
             animate='show'
             exit='exit'
-            className='h1'>
+            className='h1 z-30'>
             Innovative <br /> and{' '}
             <span className='text-accent'>versitile</span>
           </motion.h1>
@@ -35,12 +35,12 @@ const Home = () => {
             initial='hidden'
             animate='show'
             exit='exit'
-            className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
+            className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 z-30'
           >
             Blending expertise in common tech-stacks with a keen eye for responsiveness and design, I can build apps and websites that resonate.
           </motion.p>
           {/* ProjectsBtn */}
-          <div className='flex justify-center xl:hidden relative scale-75 pb-5'>
+          <div className='justify-center xl:hidden scale-75 z-40'>
             <ProjectsBtn />
           </div>
           <motion.div
