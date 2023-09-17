@@ -78,7 +78,7 @@ const About = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
+            className='max-w-[700px] text-sm mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
             Driven by a passion for technology and an unwavering commitment to innovation, I have recently embarked on a journey in software development. My background, enriched by interactions with diverse individuals across multiple industries, equips me with the unique insights needed to create apps that genuinely enhance quality of life.
           </motion.p>
         </div>

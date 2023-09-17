@@ -17,8 +17,9 @@ const Home = () => {
   return (
     <div className='bg-primary/60 h-[35em]'>
       {/* Text */}
-      <div className='w-full flex h-full xl:absolute bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
-        <div className='flex xl:flex-col xl:bottom-40 xl:items-baseline items-center xl:flex-nowrap xl:justify-center gap-2 xl:pt-40 text-left h-full container mx-auto'>
+      <div className='w-full flex h-full xl:absolute top-0 left-0 bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
+        <div className='flex xl:flex-col flex-wrap xl:bottom-40 items-baseline xl:flex-nowrap xl:justify-center gap-2 xl:pt-40 text-left h-full container mx-auto p-14'>
+
           {/* Title */}
           <motion.h1
             variants={fadeIn('down', 0.2)}
