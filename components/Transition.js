@@ -12,8 +12,8 @@ const transitionVariants = {
     width: '0%'
   },
   exit: {
-    x: ['0%, 100%'],
-    with: ['0%, 100%']
+    x: ['0%', '100%'],
+    with: ['0%', '100%']
   }
 }
 

@@ -36,13 +36,13 @@ const Contact = () => {
             <span className='text-accent'> line.</span>
           </p>
           <motion.hr
-            variants={ fadeIn('delay', 1)}
+            variants={ fadeIn('up', 1)}
             initial='hidden'
             animate='show'
             exit='hidden'
           />
           <motion.h2
-            variants={ fadeIn( 'delay', 2.5 ) }
+            variants={ fadeIn( 'up', 2.5 ) }
             initial='hidden'
             animate='show'
             exit='hidden'
@@ -63,7 +63,7 @@ const Contact = () => {
             variants={ fadeIn( 'up', 0.5 ) }
             initial='hidden'
             animate='show'
-            exit='exit'
+            exit='hidden'
             transition={ { duration: 1, ease: 'easeInOut' } }
             className='w-[40%] max-w-[462px] max-h-[540px] absolute -bottom-32 lg:bottom-0 lg:right-[7%]'>
             <Avatar2 />

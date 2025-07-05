@@ -94,7 +94,7 @@ const About = () => {
               return (
                 <div
                   key={itemIndex}
-                  className={`${index === itemIndex && 'text-accent after:w[100%] after:bg-accent after:transition-all after:duration-300'
+                  className={`${index === itemIndex && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'
                     } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
                   onClick={() => setIndex(itemIndex)}
                 >
@@ -103,7 +103,7 @@ const About = () => {
               );
             })}
           </div>
-          <div className='py-2 xl:py:6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start'>
+          <div className='py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start'>
             {aboutData[index].info.map((item, itemIndex) => {
               return (
                 <div key={itemIndex}

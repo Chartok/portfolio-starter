@@ -25,7 +25,7 @@ const Home = () => {
             variants={fadeIn('down', 0.2)}
             initial='hidden'
             animate='show'
-            exit='exit'
+            exit='hidden'
             className='h1 z-30'>
             Innovative <br /> and{' '}
             <span className='text-accent'>versitile</span>
@@ -35,7 +35,7 @@ const Home = () => {
             variants={fadeIn('down', 0.3)}
             initial='hidden'
             animate='show'
-            exit='exit'
+            exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 z-30'
           >
             Blending expertise in common tech-stacks with a keen eye for responsiveness and design, I can build apps and websites that resonate.
@@ -67,7 +67,7 @@ const Home = () => {
           variants={fadeIn('up', 0.5)}
           initial='hidden'
           animate='show'
-          exit='exit'
+          exit='hidden'
           transition={{ duration: 1, ease: 'easeInOut' }}
           className='w-[40%] max-w-[462px] max-h-[540px] absolute -bottom-32 lg:bottom-0 lg:right-[7%]'>
           <Avatar />
